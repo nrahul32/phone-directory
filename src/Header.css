@@ -1,0 +1,39 @@
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.add-btn {
+    background-color:brown;
+    color: white;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    margin: 20px;
+    width: 80px;
+    text-transform:capitalize;
+    cursor: pointer; 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 45% auto 45%;
+    margin: 20px;
+}
+
+.grid-item {
+    background-color:beige;
+    color:darkslategray;
+    font-size: 1.25rem;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.name-heading, .phone-heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: darkblue;
+}
