@@ -7,12 +7,15 @@
 }
 
 .add-btn {
+    margin: 30px;
+}
+
+.btn {
     background-color:brown;
     color: white;
     text-align: center;
     border: none;
     padding: 10px;
-    margin: 20px;
     width: 80px;
     text-transform:capitalize;
     cursor: pointer; 
@@ -20,12 +23,11 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 45% auto 45%;
-    margin: 20px;
+    grid-template-columns: 20% 2% 20% auto;
+    margin-left: 30px;
 }
 
 .grid-item {
-    background-color:beige;
     color:darkslategray;
     font-size: 1.25rem;
     padding: 10px;
