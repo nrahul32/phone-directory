@@ -14,6 +14,11 @@ function App() {
       phone: 1231231232
     }
   ];
+
+  let deleteHandler = function(message){
+    alert(message);
+  }
+
   return (
     <div>
       <Header heading="Phone Directory"/>
@@ -28,7 +33,7 @@ function App() {
           <span className="grid-item">{contact.name}</span><br/>
           <span className="grid-item">{contact.phone}</span>
           <span className="grid-item">
-            <button className="btn">Delete</button></span>
+            <button className="btn" onClick={deleteHandler.bind(this, "Delete clicked")}>Delete</button></span>
         </div>;
         })
       }
