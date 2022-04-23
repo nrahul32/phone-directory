@@ -1,7 +1,7 @@
 import Header from "./Header"
 import "./Header.css"
 
-function App() {
+function ShowContacts() {
   let contacts = [
     {
       id: 1,
@@ -41,4 +41,4 @@ function App() {
   );
 }
 
-export default App;
+export default ShowContacts;
